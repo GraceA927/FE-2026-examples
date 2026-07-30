@@ -1,5 +1,5 @@
 # FE-2026-examples
-#This is my work
+#This is my work with some changes
 Example scripts for 2026 faculty enrichment program in applied malaria modelling at the University of Health and Allied Sciences
 [![en](https://img.shields.io/badge/lang-en-blue.svg)](https://github.com/Zeidyen/FE-2026-examples/blob/main/README.md)
 [![fr](https://img.shields.io/badge/lang-fr-red.svg)](https://github.com/Zeidyen/FE-2026-examples/blob/main/README.fr.md)
