@@ -16,11 +16,14 @@ import emod_api.config.default_from_schema_no_validation as dfs
 import emod_api.campaign as camp
 
 #emodpy-malaria
+#import emodpy_malaria.demographics.MalariaDemographics as Demographics
+
 import emodpy_malaria.demographics.MalariaDemographics as Demographics
+import emod_api.demographics.PreDefinedDistributions as Distributions
 
 import manifest
 
-
+sim_years = 1
 
 def set_param_fn(config):
     """
@@ -28,11 +31,24 @@ def set_param_fn(config):
     """
     import emodpy_malaria.malaria_config as conf
     config = conf.set_team_defaults(config, manifest)
-
+    config.parameters.Climate_Model = "CLIMATE_BY_DATA"
+    
     # Defaults to 0 (off) in the installed Eradication build's schema - turn on so
     # InsetChart.json gets written to each simulation's output folder.
     config.parameters.Enable_Default_Reporting = 1
+    
+    ## existing content
+    # config.parameters.Air_Temperature_Filename = os.path.join('/shared/home/grace/FE-2026-examples/climate/emod_weather_northern',
+    #   'air_temperature.bin')
+    config.parameters.Air_Temperature_Filename = os.path.join('climate', 'air_temperature.bin')
+    config.parameters.Land_Temperature_Filename = os.path.join('climate', 'land_temperature.bin')
+    config.parameters.Rainfall_Filename = os.path.join('climate', 'rainfall.bin')
+    config.parameters.Relative_Humidity_Filename = os.path.join('climate', 'relative_humidity.bin')
 
+    conf.add_species(config, manifest, ["gambiae", "arabiensis", "funestus"])
+
+    config.parameters.Simulation_Duration = sim_years*365
+    config.parameters.Run_Number = 0
     return config
 
 
@@ -51,8 +67,10 @@ def build_demog():
     This function builds a demographics input file for the DTK using emod_api.
     """
 
-    demog = Demographics.from_template_node(lat=1, lon=2, pop=10, name="Example_Site")
-
+    demog = Demographics.from_template_node(lat=10.06, lon=-2.50, pop=1000, name="Wa")
+    demog.SetEquilibriumVitalDynamics() 
+    age_distribution = Distributions.AgeDistribution_SSAfrica
+    demog.SetAgeDistribution(age_distribution)
     return demog
 
 
@@ -87,11 +105,21 @@ def general_sim(selected_platform):
     
     # set the singularity image to be used when running this experiment
     task.set_sif(manifest.SIF_PATH, platform)
-
-
+    #task.common_assets.add_directory(os.path.join('/shared/home/grace/FE-2026-examples'), relative_path="climate")
+    
+    task.common_assets.add_directory(os.path.join(manifest.input_dir, "emod_weather_upper_west"), relative_path="climate")
+    """task.common_assets.add_directory(
+    os.path.join(
+        os.path.dirname(manifest.input_dir),
+        "climate",
+        "emod_weather_upper_west"
+    ),
+    relative_path="climate"
+)
+"""
     # create experiment from builder
     user = os.getlogin()
-    experiment = Experiment.from_task(task, name='')
+    experiment = Experiment.from_task(task, name=f'{user}_FE_example_inputs')
 
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
