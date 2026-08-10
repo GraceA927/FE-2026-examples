@@ -164,9 +164,13 @@ if __name__ == "__main__":
 
     
     expts = {
-        #'week2_weather' : '2c090358-cb7b-44e5-a2fd-842a6c23a5b7'
-        'week2_outputs' : '92e86035-aaf6-4cbf-be6d-6369586e6a2c'
+        'grace_FE_example_outputs' : 'a9ad5ca7-fb09-42e8-a755-df5588741cc3'
     }
+    
+   #expts = {
+        #'week2_weather' : '2c090358-cb7b-44e5-a2fd-842a6c23a5b7'
+      #   "week2_outputs"  :  'cbfdec19-ad7f-47da-a81a-932a3a5838d3'
+   # }
     
 
     jdir = manifest.job_directory
