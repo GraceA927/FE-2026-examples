@@ -30,7 +30,7 @@ SITES = {
     "upper_west": dict(name="Wa",       lat=10.06, lon=-2.50)
     
 }
-START, END = "20150101", "20151231"          # 1-year climatological base period
+START, END = "20150101", "20251231"          # 10-year climatological base period
 OUTDIR = os.path.join(os.path.dirname(__file__), "climate")
 PARAMS = ["T2M", "RH2M", "PRECTOTCORR"]
 

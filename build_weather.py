@@ -24,7 +24,7 @@ REGIONS = {
     
 }
 NODE_ID = 1
-YEARS = 1                     # covers 6-yr burn-in + historical + projection
+YEARS = 1                     # covers 1-yr burn-in + historical + projection
 DEMOG_ID_REF = "Gridded world grump2.5arcmin"    # must match demographics IdReference
 CLIM_DIR = os.path.join(os.path.dirname(__file__), "climate")
 

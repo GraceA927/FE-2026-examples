@@ -10,7 +10,7 @@ from idmtools_calibra.utilities.ll_calculators import beta_binomial
 import manifest
 
 user = os.getlogin()  # user initials
-expt_name = 'week3_calib'
+expt_name = 'grace_FE_example_outputs' # directory name for the experiment outputs
 
 jdir = manifest.job_directory
 output_dir=os.path.join(jdir, 'my_outputs')
@@ -43,7 +43,6 @@ def score(sim_df, data_df, sweep_variables):
     score_df = uniq_df.groupby(['x_Temporary_Larval_Habitat'])['ll'].mean().reset_index(name='ll')
     return score_df
 
-
 def plot_output(sim_df, data_df, score_df, variable):
     sim_df['date'] = pd.to_datetime([f'{y}-{m}-01' for y, m in zip(sim_df.year, sim_df.month)])
     data_df['date'] = pd.to_datetime([f'{y}-{m}-01' for y, m in zip(data_df.year, data_df.month)])
@@ -55,25 +54,30 @@ def plot_output(sim_df, data_df, score_df, variable):
     candidate_val = score_df[variable]
     score_df1 = score_df[score_df.ll == max(score_df.ll)]
     print(score_df1)
+    best_val = score_df1[variable].values[0]
+    best_ll = score_df1['ll'].values[0]
+
     for cand in candidate_val:
         plot_df = sim_df[sim_df[variable] == cand]
-        a = 1 if cand == score_df1[variable].max() else 0.15
-        axes[0].plot(plot_df['date'], plot_df['PfPR'], color='#FF0000', alpha=a)
+        is_best = (cand == score_df1[variable].max())
+        a = 1 if is_best else 0.15
+        label = f'best fit ({variable}={best_val:.3g})' if is_best else None
+        axes[0].plot(plot_df['date'], plot_df['PfPR'], color='#FF0000', alpha=a, label=label)
 
-    axes[0].scatter(data_df['date'].values, data_df['PfPR'], data_df['DHS_n'], 'k')
+    axes[0].scatter(data_df['date'].values, data_df['PfPR'], data_df['DHS_n'], 'k', label='Observed')
     axes[0].set_ylabel('PfPR')
     axes[0].set_title('Observed vs Simulated (Dark red is the best fit)')
+    axes[0].legend(loc='best', fontsize=8)
 
-    
-    axes[1].plot(score_df[variable], score_df['ll'], '-o', color='#FF0000', markersize=5)
-    axes[1].scatter(score_df1[variable], score_df1.ll, s=90, color='red')
+    axes[1].plot(score_df[variable], score_df['ll'], '-o', color='#FF0000', markersize=5, label='log-likelihood')
+    axes[1].scatter(score_df1[variable], score_df1.ll, s=90, color='red',
+                     label=f'best fit: {variable}={best_val:.3g}, ll={best_ll:.3g}')
     axes[1].set_ylabel('log-likelihood')
     axes[1].set_xlabel('x_Temporary_Larval_Habitat')
     axes[1].set_title('Mean log-likelihood. Larger value = better fit')
+    axes[1].legend(loc='best', fontsize=8)
 
     fig.savefig(os.path.join(output_dir, expt_name, 'selection.png'))
-
-
 if __name__ == "__main__":
     scores = score(sim_pfpr_df, dhs_pfpr_df, sweep_variables)
     print(scores)
