@@ -1,0 +1,150 @@
+Running without MPI (ntasks=1)
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/5fe736c7-b7c1-4c18-af68-aee6da8b343f
+Run without MPI
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/862c168d-16b2-4c7b-9dea-0fdb54fecada
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/b8399dc5-70c6-4fd2-ab18-416e0fae633a
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/cff0bea1-446f-4dbb-8a5e-a43c30558e5c
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/235d7adc-6830-4cc1-94b1-05b77a7ba79a
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/4f6acb0f-4578-4096-9d21-94cec4fe1cf8
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/cd740294-e659-4b16-b43f-38bf04e8f63e
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/427e0953-5939-48cc-9f41-dd7c95965e6e
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/721699c3-3c13-4343-9cb8-9a2ac94b98df
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/8844ab47-b76a-4820-9452-0bc0de5027b5
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/29b22785-3995-425f-b3df-cbc9b369d08f
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/5d55ce67-c6a7-4ccd-abf4-1cc0d51cb9ca
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/f1c4eb9a-3808-4d88-a10f-95906a1901db
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/b3a50cdb-889b-4264-b551-42cca3338055
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/0324172f-4816-4288-b744-dd1ae95c970a
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/58062859-d9e8-49e4-9a53-9e72784c0ec8
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/7ba63989-e29e-4165-97bc-60cf56c92a25
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/66f00fcd-7e81-4be2-a7a7-07d075a038fd
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/bb58ed00-d779-4d35-9990-61578fcb5337
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/d67331ef-676f-4e29-985a-a3740d1518cd
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/fed321f1-7a49-4ffb-a5c0-424e9def98ed
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/c010f937-e330-4a5e-b0f9-125e08a2ecf1
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/d79f152b-ed34-4bdb-9878-afe2eb49e005
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/b7500741-1a7a-4ccd-b2da-644822afa068
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/63c4d283-c2ac-4878-b281-57c177b8bddc
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/178b75b7-4120-4fbc-b9f0-e1de29f5146f
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/56374e8b-6028-477b-bb9f-fb00d776b7b8
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/cbf5d27a-3ec1-436d-9b43-8a29452b2db4
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/57238070-7217-4b9c-bd1a-77ea2ffd6573
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/e9da0095-6903-4dd1-b33b-4d27fb57845a
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/4e2ee972-d28e-4a17-b992-5c1d8c138a23
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/8f5c8383-09a7-4666-ab3e-24e49f21f2e8
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/1fcec915-10f6-4e87-aa98-94494c1ecce7
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/cb0bd65e-1018-4fc6-8e99-2650e6376b32
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/41595819-cb76-4679-8365-245e7654fa5b
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/bbb8b2c5-e4f8-4b60-be74-47773ce51a72
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/f731dbe3-16a0-4ae0-9441-09c01c419b2e
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/1cc93fbf-ec15-45c6-96c9-730023ca22b0
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/4c5224d0-a8b9-47f5-b820-419943c08ceb
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/48fce269-a651-42dd-8ef5-ad41aea69772
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/472f0bb6-053e-402c-964e-dd6723653c66
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/fe6d7bee-8737-4fcd-b876-6cc265e3c0eb
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/aaa5a9de-ff94-490d-91f0-3b155444464d
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/8f8dbcbb-b278-4bb8-aeb5-c43433d0d0d3
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/e0051935-85cf-443d-917b-9fab4dc8a19b
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/8c8972f6-3404-494c-82c9-0194b9188ed8
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/fc919222-78cd-44dd-a270-cd6ef0dc52f8
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/53919796-0b42-4674-bb9d-98472de1a5f6
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/70e76599-84d3-4b51-be9b-197d9dbbe43c
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_calibration_88200c4c-829b-4424-8eff-d345345ab01a/26d72f06-b35d-4ef9-8eba-54fbc9299d01
+Run without MPI

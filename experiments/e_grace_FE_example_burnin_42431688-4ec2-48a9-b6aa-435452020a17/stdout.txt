@@ -1,0 +1,150 @@
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/657c6102-010e-4aa6-83e2-8a4677a584a5
+Run without MPI
+Running without MPI (ntasks=1)
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/1c2f6dcf-9963-4dd1-8d8f-1195c44022de
+Run without MPI
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/7fd4a977-396b-4273-8a0c-da23cd2d3103
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/32af1df5-a4aa-41ab-a897-f77f9b0b812a
+Run without MPI
+Running without MPI (ntasks=1)
+Running without MPI (ntasks=1)
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/88f9fab9-451a-4b3a-894c-22e912304779
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/2cc1875e-88cd-44e5-b57e-a35b7d14f7b4
+Run without MPI
+Run without MPI
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/178b2e5f-883e-44d1-8ba4-22b0f50a46b3
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/f17e0bfd-9079-4b64-a8cd-7e44f93106ce
+Run without MPI
+Running without MPI (ntasks=1)
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/fad8899c-2229-4f84-8293-edd547cb4258
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/f5323c55-7bb7-422c-b199-8b085f5ab1ed
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/61b6d13f-01a0-4379-b91e-ed909efaca86
+Run without MPI
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/34e0f7c3-5f9f-4a20-a9ae-51022cdf0029
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/c70e9cce-4fbb-4f9c-950f-67fedfd1d750
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/2698ed76-8542-4451-8de4-1d44af7c9cea
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/7d0d594d-c476-4cb3-927b-fa7766c3aa30
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/91d919ef-7b85-4b40-9cd2-eb0a832b76f5
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/e08ba532-6299-4baa-a327-b775d34eef32
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/8aabc15f-14fe-4488-9d61-2f202fe53eaa
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/fe2e6894-47d6-422a-9206-f27d8a6451f2
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/cf80f92d-a7ea-47e0-960a-893655274888
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/5d0fcca2-4de3-4a24-9fd3-bad9004a23bd
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/40b8aadb-909b-4728-948c-1ebc6cf7c159
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/00e603b0-0d72-4d1f-828e-0879179c06ce
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/ee6752ce-46fa-4f5f-99ea-bd7625b2ee1b
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/f2f5e2fb-2ed8-4af3-bce9-5c4982c170d3
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/021605eb-8458-4bdb-b7c9-bde4ffacd828
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/b4935fdf-c545-454a-b474-b57571f38cc6
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/4e19c0b6-bd3a-4b9c-ae39-a024eea22426
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/0fea9700-85be-4c08-8782-1f48fb814070
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/562c431a-cc4e-4755-adea-0461b7e8c69c
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/0f571758-32c2-4c9c-8377-9e4be3df4877
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/8a6320ec-3ec5-4d0a-85d8-584582a6d145
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/6ddbaa04-bb7f-4b28-a4af-c5804d85bed4
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/c6f21ef2-7866-4b4c-a8ba-4ccb8d96af17
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/3f89f9e9-3346-4638-bf67-d490cfc7504e
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/6a8675aa-eb49-4470-8fb1-7b2efb06a4eb
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/dc038c17-808c-4791-a8e2-8888013bf174
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/8af54636-b188-404c-95d0-ac2abcf96f73
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/6a7ab1d3-90db-465b-9bcd-9253cee8af85
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/959e184d-6d65-46f5-84d6-be22dd10fafc
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/700a4920-c21c-41c0-8b4e-b3b28796674d
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/54da1fa5-eff4-456d-abad-76a07e728e58
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/bbf2a9a0-41e9-4626-bc2c-e48b12cfcc19
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/0076d08d-3675-4e3f-ac94-5823497d7a13
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/49f23d2d-df74-4bb5-af5e-d7ae626c8048
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/0be4e8b8-fbeb-4361-80af-ab5577d9b721
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/652ec529-a481-4a6a-81d4-0cb5cc109997
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/d1af9a4d-ff58-4577-b53c-8f8b7b27f7cd
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/59d0f0fc-7469-4503-9dc3-1218ac932075
+Run without MPI
+Running without MPI (ntasks=1)
+The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_burnin_42431688-4ec2-48a9-b6aa-435452020a17/28d4d3e3-5313-4139-8210-43a011f741fd
+Run without MPI

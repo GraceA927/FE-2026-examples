@@ -1,0 +1,8 @@
+{
+  "id": "88200c4c-829b-4424-8eff-d345345ab01a",
+  "item_type": "Experiment",
+  "tags": {
+    "task_type": "emodpy.emod_task.EMODTask",
+    "idmtools": "3.1.2"
+  }
+}
