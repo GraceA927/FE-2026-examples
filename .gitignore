@@ -32,3 +32,4 @@ download/
 dtk_sif.id
 Assets/
 outputs/
+slurm-*.out

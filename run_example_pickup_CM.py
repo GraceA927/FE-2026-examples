@@ -21,16 +21,16 @@ import emodpy_malaria.demographics.MalariaDemographics as Demographics
 import emod_api.demographics.PreDefinedDistributions as Distributions
 from emodpy_malaria.reporters.builtin import *
 from idmtools.builders import SimulationBuilder
+import emodpy_malaria.interventions.treatment_seeking as cm
 
 import manifest
 
-sim_years = 10
+sim_years = 50
 num_seeds = 5
 sim_start_year = 2000
-serialize_years = 10
+serialize_years = 50 # ensure this matches the burnin simulation's serialization time
 pickup_years=5
-burnin_exp_id = '42431688-4ec2-48a9-b6aa-435452020a17'
-
+burnin_exp_id = '4ee8d5f8-bba5-4c1e-8c83-7af316b269d2' # ensure this matches the burnin experiment ID
 
 
 def set_param_fn(config):
@@ -66,14 +66,31 @@ def set_param_fn(config):
     return config
 
 
-def build_camp():
+def build_camp(cm_cov_U5=0.80, cm_start = 1):
     """
     This function builds a campaign input file for the DTK using emod_api.
     """
 
     camp.set_schema(manifest.schema_file)
-    
+    cm.add_treatment_seeking(camp, start_day=cm_start, drug=['Artemether', 'Lumefantrine'],
+                      targets=[{'trigger': 'NewClinicalCase', 'coverage': cm_cov_U5, 
+                                'agemin': 0, 'agemax': 5,
+                                'rate': 0.3},
+                               {'trigger': 'NewClinicalCase', 'coverage': cm_cov_U5*0.75, 
+                                'agemin': 5, 'agemax': 115,
+                                'rate': 0.3},
+                               {'trigger': 'NewSevereCase', 'coverage': min(cm_cov_U5*1.15,1), 
+                                'agemin': 0, 'agemax': 115,
+                                'rate': 0.5}],
+                      broadcast_event_name="Received_Treatment") 
+
     return camp
+def update_campaign_multiple_parameters(simulation, cm_cov_U5, cm_start):
+
+    build_campaign_partial = partial(build_camp, cm_cov_U5=cm_cov_U5, cm_start=cm_start)
+    simulation.task.create_campaign_from_callback(build_campaign_partial)
+  
+    return dict(cm_cov_U5=cm_cov_U5, cm_start=cm_start)
 
 
 def build_demog():
@@ -184,16 +201,28 @@ def general_sim(selected_platform):
     burnin_df = build_burnin_df(burnin_exp_id, platform, serialize_years*365)
 
     builder.add_sweep_definition(partial(update_serialize_parameters, df=burnin_df), range(len(burnin_df.index)))
+    
     # builder.add_sweep_definition(partial(set_param, param='Run_Number'), range(num_seeds))
-    builder.add_sweep_definition(partial(set_param, param='x_Temporary_Larval_Habitat'), np.logspace(-0.5,1,5))
+    builder.add_sweep_definition(partial(set_param, param='x_Temporary_Larval_Habitat'), np.logspace(-0.5,1,10))
+    ## case management sweep 
+    builder.add_multiple_parameter_sweep_definition(
+        update_campaign_multiple_parameters,
+        dict(
+            cm_cov_U5=[0.0, 0.5, 0.95],
+            cm_start=[1, 100, 365]
+        )
+    )
+   
+   
    ## reports are still located here
+   
 
-   # create experiment from builder
+   # create experiment from builders
     user = os.getlogin()
-    experiment = Experiment.from_builder(builder, task, name=f'{user}_FE_example_pickup')
+    experiment = Experiment.from_builder(builder, task, name=f'{user}_FE_example_pickup_CM')
 
     # create experiment from builder
-    add_event_recorder(task, event_list=["HappyBirthday", "Births"],
+    add_event_recorder(task, event_list=["HappyBirthday", "Births","Received_Treatment"],
                        start_day=1, end_day=sim_years*365, 
                        node_ids=[1], min_age_years=0,
                        max_age_years=100)
@@ -208,15 +237,15 @@ def general_sim(selected_platform):
                                     filename_suffix=f'Monthly_U5_{sim_year}')
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
-    experiment.run(wait_until_done=True, platform=platform)
+    experiment.run(wait_until_done=False, platform=platform)
 
 
     # Check result
-    if not experiment.succeeded:
+    '''if not experiment.succeeded:
         print(f"Experiment {experiment.uid} failed.\n")
         exit()
 
-    print(f"Experiment {experiment.uid} succeeded.")
+    print(f"Experiment {experiment.uid} succeeded.")'''
 
 
 

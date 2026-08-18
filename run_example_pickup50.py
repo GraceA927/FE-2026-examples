@@ -184,10 +184,10 @@ def general_sim(selected_platform):
 
     builder.add_sweep_definition(partial(update_serialize_parameters, df=burnin_df), range(len(burnin_df.index)))
     # builder.add_sweep_definition(partial(set_param, param='Run_Number'), range(num_seeds))
-    builder.add_sweep_definition(partial(set_param, param='x_Temporary_Larval_Habitat'), np.logspace(-0.5,1,5))
+    builder.add_sweep_definition(partial(set_param, param='x_Temporary_Larval_Habitat'), np.logspace(-0.5,1,10))
    ## reports are still located here
 
-   # create experiment from builder
+   # create experiment from builders
     user = os.getlogin()
     experiment = Experiment.from_builder(builder, task, name=f'{user}_FE_example_pickup50')
 
@@ -207,15 +207,15 @@ def general_sim(selected_platform):
                                     filename_suffix=f'Monthly_U5_{sim_year}')
 
     # The last step is to call run() on the ExperimentManager to run the simulations.
-    experiment.run(wait_until_done=True, platform=platform)
+    experiment.run(wait_until_done=False, platform=platform)
 
 
     # Check result
-    if not experiment.succeeded:
+    '''if not experiment.succeeded:
         print(f"Experiment {experiment.uid} failed.\n")
         exit()
 
-    print(f"Experiment {experiment.uid} succeeded.")
+    print(f"Experiment {experiment.uid} succeeded.")'''
 
 
 
