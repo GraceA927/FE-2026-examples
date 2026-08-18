@@ -1,3 +1,0 @@
-Running without MPI (ntasks=1)
-The script is running from: /shared/home/grace/FE-2026-examples/experiments/e_grace_FE_example_outputs_6030eec6-cf9c-4064-aa72-661334327a42/f6c3c000-d5e3-4c98-bcc2-a4beeb6bf64b
-Run without MPI

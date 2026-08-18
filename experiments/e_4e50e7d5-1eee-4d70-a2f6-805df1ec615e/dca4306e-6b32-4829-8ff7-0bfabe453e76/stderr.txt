@@ -1,2 +1,0 @@
-FATAL:   While checking container encryption: could not open image /shared/home/grace/FE-2026-examples/containers/dtk_run_al2023.sif: failed to retrieve path for /shared/home/grace/FE-2026-examples/containers/dtk_run_al2023.sif: lstat /shared/home/grace/FE-2026-examples/containers/dtk_run_al2023.sif: no such file or directory
-srun: error: compute-1-1: task 0: Exited with exit code 255
