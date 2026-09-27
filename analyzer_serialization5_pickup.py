@@ -58,7 +58,7 @@ class InsetChartAnalyzer(IAnalyzer):
             os.mkdir(os.path.join(self.working_dir, self.expt_name))
 
         adf = pd.concat(selected).reset_index(drop=True)
-        adf.to_csv(os.path.join(self.working_dir, self.expt_name, 'All_Age_InsetChart_burnin.csv'), index=False)
+        adf.to_csv(os.path.join(self.working_dir, self.expt_name, 'All_Age_InsetChart_burnin5pickup.csv'), index=False)
 
 class MonthlyPfPRAnalyzer(IAnalyzer):
 
@@ -153,7 +153,7 @@ class MonthlyPfPRAnalyzer(IAnalyzer):
         print(f'\nSaving outputs to: {os.path.join(self.working_dir, self.expt_name)}')
 
         adf = pd.concat(selected).reset_index(drop=True)
-        adf.to_csv((os.path.join(self.working_dir, self.expt_name, 'PfPR_ClinicalIncidence_monthly.csv')),
+        adf.to_csv((os.path.join(self.working_dir, self.expt_name, 'PfPR_ClinicalIncidence_monthly5.csv')),
                    index=False)
         
 if __name__ == "__main__":
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
     
     expts = {
-        'grace_FE_example_outputs' : '42431688-4ec2-48a9-b6aa-435452020a17'
+        'grace_FE_example_outputs' : 'b7a7e768-4a77-4d56-af85-4d3f3b2dd73b'
         }
 
     
@@ -176,7 +176,7 @@ if __name__ == "__main__":
         os.mkdir(wdir)
     # Same as in run_example_burnin.py
     serialize_years = 10
-    step = 'burnin'
+    step = 'pickup'
     sweep_variables = ['Run_Number'] 
 
     # set desired InsetChart channels to analyze and plot
@@ -200,18 +200,14 @@ if __name__ == "__main__":
                                     working_dir=wdir),
                                 ]
 
-            '''analyzers_pickup = [InsetChartAnalyzer(expt_name=expt_name,
+            analyzers_pickup = [InsetChartAnalyzer(expt_name=expt_name,
                                     channels=channels_inset_chart,
                                     # start_year=2023,
                                     start_year=2000,
                                     sweep_variables=sweep_variables,
                                     working_dir=wdir),
-                                MonthlyPfPRAnalyzer(expt_name=expt_name,
-                                    # start_year=2023,
-                                    start_year=2000,
-                                    sweep_variables=sweep_variables,
-                                    working_dir=wdir)
-                                ]'''
+                                
+                                ]
 
         if step == 'burnin':
             am = AnalyzeManager(configuration={}, ids=[(exp_id, ItemType.EXPERIMENT)],
@@ -250,7 +246,7 @@ if __name__ == "__main__":
  
     # read in analyzed InsetChart data
     expt_name=list(expts.keys())[0]
-    df = pd.read_csv(os.path.join(wdir, expt_name, 'All_Age_InsetChart_burnin.csv'))
+    df = pd.read_csv(os.path.join(wdir, expt_name, 'All_Age_InsetChart_burnin5pickup.csv'))
     df['date'] = pd.to_datetime(df['date'])
     df = df.groupby(['date'] + sweep_variables)[channels_inset_chart].agg(np.mean).reset_index()
 
@@ -337,7 +333,7 @@ if len(sweep_variables) > 0:
 fig1.autofmt_xdate(rotation=90)
 
 fig1.savefig(
-    os.path.join(wdir, expt_name, 'InsetChart_burnin.png'),
+    os.path.join(wdir, expt_name, 'InsetChart_burninCM5_pickup.png'),
     dpi=300,
     bbox_inches='tight'
 )

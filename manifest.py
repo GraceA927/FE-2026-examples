@@ -49,8 +49,8 @@ partition = 'demo'
 singularity_module = '/shared/emod/shared_tools/modulefiles/singularity'
 
 # Wall-clock time limit requested per job (HH:MM:SS).
-sim_time = '2:00:00'
+sim_time = '0:10:00'
 
 # Maximum number of simulations SLURM will run at once for one experiment.
-max_running_jobs = 10
+max_running_jobs = 100
 #max_running_jobs = 5

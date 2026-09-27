@@ -58,7 +58,7 @@ class InsetChartAnalyzer(IAnalyzer):
             os.mkdir(os.path.join(self.working_dir, self.expt_name))
 
         adf = pd.concat(selected).reset_index(drop=True)
-        adf.to_csv(os.path.join(self.working_dir, self.expt_name, 'All_Age_InsetChart_burnin.csv'), index=False)
+        adf.to_csv(os.path.join(self.working_dir, self.expt_name, 'All_Age_InsetChart_burnin5.csv'), index=False)
 
 class MonthlyPfPRAnalyzer(IAnalyzer):
 
@@ -153,7 +153,7 @@ class MonthlyPfPRAnalyzer(IAnalyzer):
         print(f'\nSaving outputs to: {os.path.join(self.working_dir, self.expt_name)}')
 
         adf = pd.concat(selected).reset_index(drop=True)
-        adf.to_csv((os.path.join(self.working_dir, self.expt_name, 'PfPR_ClinicalIncidence_monthly.csv')),
+        adf.to_csv((os.path.join(self.working_dir, self.expt_name, 'PfPR_ClinicalIncidence_monthly5.csv')),
                    index=False)
         
 if __name__ == "__main__":
@@ -164,7 +164,7 @@ if __name__ == "__main__":
 
     
     expts = {
-        'grace_FE_example_outputs' : '42431688-4ec2-48a9-b6aa-435452020a17'
+        'grace_FE_example_outputs' : '4178cf21-1bf6-4326-85e0-51ecc3f96d3b'
         }
 
     
@@ -250,7 +250,7 @@ if __name__ == "__main__":
  
     # read in analyzed InsetChart data
     expt_name=list(expts.keys())[0]
-    df = pd.read_csv(os.path.join(wdir, expt_name, 'All_Age_InsetChart_burnin.csv'))
+    df = pd.read_csv(os.path.join(wdir, expt_name, 'All_Age_InsetChart_burnin5.csv'))
     df['date'] = pd.to_datetime(df['date'])
     df = df.groupby(['date'] + sweep_variables)[channels_inset_chart].agg(np.mean).reset_index()
 
@@ -337,7 +337,7 @@ if len(sweep_variables) > 0:
 fig1.autofmt_xdate(rotation=90)
 
 fig1.savefig(
-    os.path.join(wdir, expt_name, 'InsetChart_burnin.png'),
+    os.path.join(wdir, expt_name, 'InsetChart_burninCM5.png'),
     dpi=300,
     bbox_inches='tight'
 )
